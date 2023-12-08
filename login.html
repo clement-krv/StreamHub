@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .sign_in {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 1px black;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: fit-content;
+            margin: 0 auto;
+        }
+        .sign_up {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 1px black;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: fit-content;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Login</h1>
+    <form class="login">
+
+        <div class="sign_in">
+            <p>Se Connecter</p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <a href="index.html">Login</a>
+        </div>
+        
+        <p class="sign_in">OU</p>
+
+        <div class="sign_up">
+            <p>Créer un compte</p>
+            <label for="">Username</label>
+            <input type="text" name="username" id="username" required>
+            <label for="">e-mail</label>
+            <input type="text" name="" id="" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <label for="password">Confirm Password</label>
+            <input type="password" name="password" id="password" required>
+            <a href="index.html">Register</a>
+        </div>
+        
+    </form>
+</body>
+</html>
