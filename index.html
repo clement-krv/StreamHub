@@ -5,25 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreamHub</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: large;
+            margin-bottom: 30px;
+        }
+
+        .stream-div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .stream-div a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: solid 1px Black;
+            border-radius: 30px;
+            margin-bottom: 10px;
+        }
+
+        .stream-div a div {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stream-div a img {
+            width: 30%;
+            height: auto;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>StreamHub</h1>
     <p>This is the main page of my StreamHub.</p>
 
-
-    <a href="streampage.html">
-        <div>stream 1 </div>
-        <img src="minia1.jpg">
-    </a>
-    <a href="streampage.html">
-        <div>stream 2 </div>
-        <img src="minia2.jpg">
-    </a>
-    <a href="streampage.html">
-        <div>stream 3 </div>
-        <img src="mania3.jpg">
-    </a>
+    <div class="stream-div">
+        <a href="streampage.html">
+            <img src="minia1.jpg">
+            <div>Stream 1 </div>
+        </a>
+        <a href="streampage.html">
+            <img src="minia2.jpg">
+            <div>Stream 2 </div>
+        </a>
+        <a href="streampage.html">
+            <img src="mania3.jpg">
+            <div>Stream 3 </div>
+        </a>
+    </div>
 </body>
 
 </html>
